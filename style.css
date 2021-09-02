@@ -4,4 +4,19 @@
 
 body{
     font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+#logo{
+    width: 120px;
+    display: block;
 }
