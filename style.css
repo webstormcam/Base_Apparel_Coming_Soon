@@ -27,14 +27,42 @@ body{
 
 #big_text{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-top: 3.7rem;
 }
 
 h1{
     color: #423A3A;
+    font-weight: 600;
+    letter-spacing: 15px;
 }
 
 .light-color{
     color:#CE9898;
     font-weight: 300;
+}
+
+#small_text{
+    margin-top: 1.5rem;
+}
+
+.that_color_text{
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #CE9898;
+}
+
+input{
+    padding: 1rem;
+  
+    border-radius: 1.2rem;
+    position: relative;
+    
+}
+
+button{
+    position: absolute;
 }
