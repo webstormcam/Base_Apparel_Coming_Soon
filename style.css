@@ -11,12 +11,30 @@ body{
 #content{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 375px;
+    background-image: url('imgs/bg-pattern-desktop.svg');
 }
 
 
 
 #logo{
-    width: 120px;
-    display: block;
+    width: 150px;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-left: 1.8rem;
+    
+}
+
+#big_text{
+    text-align: center;
+    font-size: 3rem;
+}
+
+h1{
+    color: #423A3A;
+}
+
+.light-color{
+    color:#CE9898;
+    font-weight: 300;
 }
