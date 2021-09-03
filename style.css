@@ -86,3 +86,13 @@ button{
 .button_arrow{
     width: 13px;
 }
+
+#large_hero{
+    display: none;
+}
+
+@media screen and (min-width:1440px){
+    #large_hero{
+        display: block;
+    }
+}
