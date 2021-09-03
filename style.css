@@ -8,6 +8,10 @@ body{
     justify-content: center;
 }
 
+#webpage_holder{
+    width: 375px;
+}
+
 #content{
     display: flex;
     flex-direction: column;
@@ -94,5 +98,17 @@ button{
 @media screen and (min-width:1440px){
     #large_hero{
         display: block;
+        width: 40%;
     }
+
+    #webpage_holder{
+        width: 1440px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #content{
+        width: 60%;
+    }
+
 }
