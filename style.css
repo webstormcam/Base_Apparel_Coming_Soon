@@ -115,4 +115,8 @@ button{
         display: none;
     }
 
+    .big_pic{
+        width: 100%;
+    }
+
 }
