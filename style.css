@@ -129,12 +129,16 @@ button{
     }
     #big_text{
         text-align: start;
+        font-size: 4rem;
+        margin-top: 7rem;
     }
 
     .that_color_text{
         text-align: start;
         width: 445px;
         padding-left: 0rem;
+        font-size: 1rem;
+        line-height: 2rem;
     }
 
     #input_section{
@@ -147,6 +151,13 @@ button{
         margin-top: 1.5rem;
         padding-left: 0rem;
       
+    }
+
+    button{
+        right: 4.5rem;
+        top:0.0rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
 }
