@@ -6,17 +6,20 @@ body{
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
     justify-content: center;
+    background-image: url('imgs/bg-pattern-desktop.svg');
+  
 }
 
 #webpage_holder{
     width: 375px;
+
 }
 
 #content{
     display: flex;
     flex-direction: column;
     width: 375px;
-    background-image: url('imgs/bg-pattern-desktop.svg');
+
 }
 
 
@@ -114,6 +117,7 @@ button{
 
     #content{
         width: 60%;
+        padding-left: 5rem;
     }
 
     #hero{
@@ -122,6 +126,27 @@ button{
 
     .big_pic{
         width: 100%;
+    }
+    #big_text{
+        text-align: start;
+    }
+
+    .that_color_text{
+        text-align: start;
+        width: 445px;
+        padding-left: 0rem;
+    }
+
+    #input_section{
+        width: 445px;
+        justify-content: flex-start;
+    }
+
+    #logo{
+        width: 180px;
+        margin-top: 1.5rem;
+        padding-left: 0rem;
+      
     }
 
 }
