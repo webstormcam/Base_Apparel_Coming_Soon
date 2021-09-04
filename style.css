@@ -103,6 +103,13 @@ button{
     display: none;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 @media screen and (min-width:1440px){
     #large_hero{
         display: block;
