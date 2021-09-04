@@ -144,6 +144,7 @@ button:focus {
         text-align: start;
         width: 445px;
         padding-left: 0rem;
+        padding-right: 0rem;
         font-size: 1rem;
         line-height: 2rem;
     }
@@ -151,6 +152,10 @@ button:focus {
     #input_section{
         width: 445px;
         justify-content: flex-start;
+    }
+
+    input{
+        width: 100%;
     }
 
     #logo{
@@ -161,10 +166,10 @@ button:focus {
     }
 
     button{
-        right: 4.5rem;
+        right: 0rem;
         top:0.0rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
     }
 
 }
