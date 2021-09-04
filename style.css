@@ -93,6 +93,13 @@ button{
     border-radius: 2rem;
     outline: none;
     border: 1px solid #F8BFBF;
+   
+}
+
+button:hover{
+    background-color: #d1b2b2;
+    cursor: pointer;
+    
 }
 
 .button_arrow{
@@ -108,6 +115,22 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+
+#redwords{
+    font-size: 0.8rem;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    color: crimson;
+    display: none;
+
+}
+
+#reddot{
+    position:absolute;
+    right:7rem ;
+    top: 0.6rem;
+    display: none;
 }
 
 @media screen and (min-width:1440px){
@@ -171,5 +194,7 @@ button:focus {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
     }
+
+   
 
 }
