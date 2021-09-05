@@ -19,17 +19,17 @@ function validateForm(){
         v.style.borderColor = 'red'
         v.style.borderWidth = '1px'
         c.style.borderColor = 'red'
-        c.style.borderWidth = '2px'
+        c.style.borderWidth = '1px'
     
     } else if(x.includes('@') === true && x.length<4){
         y.style.display ='block'
         z.style.display ='block'
-        v.style.border = 'red'
+        v.style.borderColor = 'red'
         v.style.borderWidth = '1px'
         c.style.borderColor = 'red'
-        c.style.borderWidth = '2px'
+        c.style.borderWidth = '1px'
         
-    }else if ( x.includes('@') === true){
+    }else if ( x.includes('@') === true && x.length>4){
        
         document.getElementById("myForm").submit();
      }
