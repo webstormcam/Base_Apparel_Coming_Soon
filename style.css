@@ -120,18 +120,20 @@ button:focus {
 
 #redwords{
     font-size: 0.8rem;
-    margin-left: 3rem;
+    margin-left: 4.5rem;
     margin-top: 0.5rem;
     color: crimson;
     display: none;
+    
 
 }
 
 #reddot{
     position:absolute;
-    right:7rem ;
+    right:8rem ;
     top: 0.6rem;
     display: none;
+    
 }
 
 form{
@@ -204,6 +206,22 @@ form{
 
     form{
         width: 100%;
+    }
+
+    #redwords{
+    margin-left: 1rem;
+       
+      
+        
+    
+    }
+    
+    #reddot{
+        position:absolute;
+        right:7rem ;
+        top: 0.6rem;
+        
+        
     }
 
    

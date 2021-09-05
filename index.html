@@ -28,16 +28,17 @@
                     up-to-date with announcements and our launch deals.</p>
             </div>
             <div id="input_section">
-                <form action="">
-                    <input type="email" placeholder="Email Address">
-                    <button onclick="myFunc()" id="clickable">
+                <form action="#" form id="myForm" name="myForm" method="GET"
+                    onsubmit="event.preventDefault(); validateForm(); ">
+                    <input type="email" id="email" placeholder="Email Address">
+                    <button id="clickable">
                         <img class="button_arrow" src="imgs/icon-arrow.svg" alt="">
                     </button>
                 </form>
                 <img id="reddot" src="imgs/icon-error.svg" alt="error symbol">
 
             </div>
-            <p id="redwords">Please Provide a valid email</p>
+            <p id="redwords">Please provide a valid email</p>
         </div>
         <div id="large_hero"><img class="big_pic" src="imgs/hero-desktop.jpg" alt=""></div>
     </div>
