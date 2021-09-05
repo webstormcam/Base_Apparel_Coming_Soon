@@ -155,7 +155,7 @@ form{
     }
 
     #webpage_holder{
-        width: 95%;
+        width: 100%;
         max-width: 1440px;
         display: flex;
         justify-content: center;
